@@ -1,4 +1,4 @@
-import { Teamtype } from "@/types/type";
+import { PageCayegorytype, Teamtype } from "@/types/type";
 
 export const TeamData: Teamtype[] = [
   {
@@ -63,26 +63,33 @@ export const TeamData: Teamtype[] = [
   },
 ];
 
-// const data = [
-//   {
-//     about: {
-//       id: 1,
-//       slug: "about",
-//       name: "ABOUT US",
-//       image: "/images/category1.jpg",
-//     },
-//   },
-//   {
-//     roof: {
-//       id: 2,
-//       slug: "traditional-carpentry",
-//       name: "FURNITURE",
-//       image: "/images/category2.jpg",
-//       menu: [
-//         { label: "Kitchen", href: "/furniture/kitchen" },
-//         { label: "Living Room", href: "/furniture/living-room" },
-//         { label: "Bedroom", href: "/furniture/bedroom" },
-//       ],
-//     },
-//   },
-// ];
+// data/categoryData.ts
+export const CategoryData:PageCayegorytype[] = [
+  {
+    id: 1,
+    name: "ROOF CONSTRUCTION",
+    slug: "roof-construction",
+    image: "/images/category1.jpg",
+    galleryTitle: "Roof Construction and Roofing",
+    galleryImages: [
+      "/images/roof1.jpg",
+      "/images/roof2.jpg",
+      "/images/roof3.jpg",
+      "/images/roof4.jpg",
+      // Add more images
+    ],
+  },
+  {
+    id: 2,
+    name: "FURNITURE",
+    slug: "furniture",
+    image: "/images/category2.jpg",
+    galleryTitle: "Our Custom Furniture Gallery",
+    galleryImages: [
+      "/images/furniture1.jpg",
+      "/images/furniture2.jpg",
+      "/images/furniture3.jpg",
+    ],
+  },
+];
+

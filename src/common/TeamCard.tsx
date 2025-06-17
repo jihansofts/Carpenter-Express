@@ -4,7 +4,7 @@ import { TeamData } from "@/lib/data";
 export default function TeamCard() {
   return (
     <div className="container mx-auto py-10">
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center gap-x-5">
         <div className="w-full h-px bg-primary"></div>
         <h5 className="inline-flex items-center justify-center text-2xl font-semibold text-primary">
           The Team
@@ -12,7 +12,7 @@ export default function TeamCard() {
         <div className="w-full h-px bg-primary"></div>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4 mt-5">
         {TeamData.map((item) => (
           <div
             key={item.id}

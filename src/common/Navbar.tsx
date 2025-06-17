@@ -15,10 +15,23 @@ export default function Navbar() {
         {/* Left Icons */}
         <div className="flex gap-4 text-primary">
           <Link href="/">
-            <House size={18} className="text-primary hover:text-secondary" />
+            <House
+              size={18}
+              className="text-primary hover:bg-secondary hover:text-white"
+            />
           </Link>
-          <Facebook size={18} />
-          <Youtube size={18} />
+          <Link href="/">
+            <Facebook
+              size={18}
+              className="text-primary hover:bg-secondary hover:text-white"
+            />
+          </Link>
+          <Link href="/">
+            <Youtube
+              size={18}
+              className="text-primary hover:bg-secondary hover:text-white"
+            />
+          </Link>
         </div>
 
         {/* Mobile Menu Toggle */}

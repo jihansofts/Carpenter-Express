@@ -14,3 +14,12 @@ export type Teamtype = {
   image: string;
   role: string;
 };
+
+export type PageCayegorytype = {
+  id: number;
+  name: string;
+  slug: string;
+  image: string;
+  galleryTitle: string;
+  galleryImages: string[];
+};
