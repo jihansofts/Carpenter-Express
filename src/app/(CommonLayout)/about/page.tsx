@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import About from "@/components/About";
+import TeamCard from "@/common/TeamCard";
 export default function page() {
   return (
     <div>
@@ -14,6 +15,7 @@ export default function page() {
         />
       </div>
       <About />
+      <TeamCard />
     </div>
   );
 }

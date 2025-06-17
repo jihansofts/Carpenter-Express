@@ -1,6 +1,7 @@
 "use client";
 
 import { Facebook, House, Menu, X, Youtube } from "lucide-react";
+import Link from "next/link";
 import Image from "next/image";
 import React, { useState } from "react";
 
@@ -13,7 +14,9 @@ export default function Navbar() {
       <div className="container mx-auto flex items-center justify-between px-4 md:px-0">
         {/* Left Icons */}
         <div className="flex gap-4 text-primary">
-          <House size={18} />
+          <Link href="/">
+            <House size={18} className="text-primary hover:text-secondary" />
+          </Link>
           <Facebook size={18} />
           <Youtube size={18} />
         </div>
@@ -38,9 +41,11 @@ export default function Navbar() {
         {/* Left Line + About Us */}
         <div className="flex items-center gap-4 w-1/3">
           <div className="h-px bg-primary flex-1"></div>
-          <span className="text-primary font-medium whitespace-nowrap">
-            ABOUT US
-          </span>
+          <Link href="/about">
+            <span className="text-primary font-medium whitespace-nowrap">
+              ABOUT US
+            </span>
+          </Link>
         </div>
 
         {/* Logo */}

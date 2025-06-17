@@ -7,3 +7,10 @@ export type Categorytype = {
     href: string;
   }[];
 };
+
+export type Teamtype = {
+  id: number;
+  name: string;
+  image: string;
+  role: string;
+};
