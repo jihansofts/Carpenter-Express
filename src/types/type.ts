@@ -15,11 +15,21 @@ export type Teamtype = {
   role: string;
 };
 
-export type PageCayegorytype = {
-  id: number;
-  name: string;
-  slug: string;
+type SubPage = {
   image: string;
-  galleryTitle: string;
-  galleryImages: string[];
+  title: string;
+  slug: string;
+  description: string;
+  gallerySections: {
+    galleryTitle: string;
+    images: string[];
+  }[];
+};
+
+export type PageCategoryType = {
+  id: number;
+  img: string; // was: Categoryimg
+  name: string;
+  slug: string; // was: Categoryslug
+  subpages: SubPage[];
 };

@@ -1,4 +1,4 @@
-import { PageCayegorytype, Teamtype } from "@/types/type";
+import { PageCategoryType, Teamtype } from "@/types/type";
 
 export const TeamData: Teamtype[] = [
   {
@@ -63,33 +63,103 @@ export const TeamData: Teamtype[] = [
   },
 ];
 
-// data/categoryData.ts
-export const CategoryData:PageCayegorytype[] = [
+export const CategoryData: PageCategoryType[] = [
   {
     id: 1,
     name: "ROOF CONSTRUCTION",
+    img: "/images/category1.jpg",
     slug: "roof-construction",
-    image: "/images/category1.jpg",
-    galleryTitle: "Roof Construction and Roofing",
-    galleryImages: [
-      "/images/roof1.jpg",
-      "/images/roof2.jpg",
-      "/images/roof3.jpg",
-      "/images/roof4.jpg",
-      // Add more images
+    subpages: [
+      {
+        image: "/images/bgroof.jpg",
+        title: "Traditional Carpentry",
+        slug: "traditional-carpentry",
+        description:
+          "We can say that besides our vast professional experience, our attachment and commitment to wood are natural, after half a century.",
+        gallerySections: [
+          {
+            galleryTitle: "Timber Roof Frames",
+            images: [
+              "/images/lukacs-wood-garage-01.jpg",
+              "/images/lukacs-wood-garage-02.jpg",
+              "/images/lukacs-wood-garage-03.jpg",
+              "/images/lukacs-wood-garage-04.jpg",
+              "/images/lukacs-wood-garage-05.jpg",
+              "/images/lukacs-wood-garage-06.jpg",
+            ],
+          },
+          {
+            galleryTitle: "Sloped Roofing Projects",
+            images: [
+              "/images/lukacs-water-tower-01.jpg",
+              "/images/lukacs-water-tower-02.jpg",
+              "/images/lukacs-water-tower-03.jpg",
+              "/images/lukacs-water-tower-04.jpg",
+              "/images/lukacs-water-tower-05.jpg",
+            ],
+          },
+        ],
+      },
+      {
+        image: "/images/bgnail.jpg",
+        title: "Nail Plate Trusses",
+        slug: "nail-plate-trusses",
+        description:
+          "We can say that besides our vast professional experience, our attachment and commitment to wood are natural, after half a century.",
+        gallerySections: [
+          {
+            galleryTitle: "Roof Trusses",
+            images: [
+              "/images/lukacs-roof-01.jpg",
+              "/images/lukacs-roof-02.jpg",
+              "/images/lukacs-roof-03.jpg",
+              "/images/lukacs-roof-04.jpg",
+              "/images/lukacs-roof-05.jpg",
+              "/images/lukacs-roof-06.jpg",
+              "/images/lukacs-roof-07.jpg",
+              "/images/lukacs-roof-08.jpg",
+              "/images/lukacs-roof-09.jpg",
+              "/images/lukacs-roof-10.jpg",
+              "/images/lukacs-roof-11.jpg",
+              "/images/lukacs-roof-12.jpg",
+            ],
+          },
+        ],
+      },
     ],
   },
   {
     id: 2,
-    name: "FURNITURE",
-    slug: "furniture",
-    image: "/images/category2.jpg",
-    galleryTitle: "Our Custom Furniture Gallery",
-    galleryImages: [
-      "/images/furniture1.jpg",
-      "/images/furniture2.jpg",
-      "/images/furniture3.jpg",
+    name: "STRUCTURAL CONSTRUCTION",
+    img: "/images/category2.jpg",
+    slug: "structural-construction",
+    subpages: [
+      {
+        image: "/images/bgnail.jpg",
+        title: "Nail Plate Trusses",
+        slug: "nail-plate-trusses",
+        description:
+          "We can say that besides our vast professional experience, our attachment and commitment to wood are natural, after half a century.",
+        gallerySections: [
+          {
+            galleryTitle: "Roof Trusses",
+            images: [
+              "/images/lukacs-roof-01.jpg",
+              "/images/lukacs-roof-02.jpg",
+              "/images/lukacs-roof-03.jpg",
+              "/images/lukacs-roof-04.jpg",
+              "/images/lukacs-roof-05.jpg",
+              "/images/lukacs-roof-06.jpg",
+              "/images/lukacs-roof-07.jpg",
+              "/images/lukacs-roof-08.jpg",
+              "/images/lukacs-roof-09.jpg",
+              "/images/lukacs-roof-10.jpg",
+              "/images/lukacs-roof-11.jpg",
+              "/images/lukacs-roof-12.jpg",
+            ],
+          },
+        ],
+      },
     ],
   },
 ];
-

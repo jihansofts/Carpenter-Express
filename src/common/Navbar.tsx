@@ -55,7 +55,7 @@ export default function Navbar() {
         <div className="flex items-center gap-4 w-1/3">
           <div className="h-px bg-primary flex-1"></div>
           <Link href="/about">
-            <span className="text-primary font-medium whitespace-nowrap">
+            <span className="text-primary font-medium whitespace-nowrap hover:font-semibold">
               ABOUT US
             </span>
           </Link>
@@ -63,14 +63,18 @@ export default function Navbar() {
 
         {/* Logo */}
         <div className="flex-shrink-0">
-          <Image src="/logo.png" width={120} height={120} alt="logo" />
+          <Link href="/">
+            <Image src="/logo.png" width={120} height={120} alt="logo" />
+          </Link>
         </div>
 
         {/* Right Line + Contact */}
         <div className="flex items-center gap-4 w-1/3 justify-end">
-          <span className="text-primary font-medium whitespace-nowrap">
-            CONTACT
-          </span>
+          <Link href="/contact">
+            <span className="text-primary font-medium whitespace-nowrap hover:font-semibold">
+              CONTACT
+            </span>
+          </Link>
           <div className="h-px bg-primary flex-1"></div>
         </div>
       </div>

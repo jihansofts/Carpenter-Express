@@ -2,14 +2,16 @@
 
 :root {
   --background: #ffffff;
-  --primary: #3E2E27;
-  --secondary: #4D3C33;
+  --primary: #3e2e27;
+  --secondary: #4d3c33;
+  --border: #ddd2cc;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-primary: var(--primary);
   --color-secondary: var(--secondary);
+  --color-border: var(--border);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }

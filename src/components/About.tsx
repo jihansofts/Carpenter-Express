@@ -1,18 +1,26 @@
 import React from "react";
 import Image from "next/image";
+import SectionTitle from "@/common/SectionTitle";
 
 export default function About() {
   return (
     <div className="py-16  text-center">
+      <div className="container mx-auto">
+        <Image
+          src="/images/about.jpg"
+          alt="About Us Banner"
+          width={1200}
+          height={400}
+          className="w-full h-auto object-cover"
+        />
+      </div>
       {/* About Us */}
       <div className="flex items-center justify-center">
-        <div className="w-full h-1 bg-primary inline-block"></div>
-        <div className="w-[200px]">
-          <h2 className="text-2xl font-semibold text-primary mx-10">
-            About Us
-          </h2>
-        </div>
-        <div className="w-full h-1 bg-primary inline-block"></div>
+        <SectionTitle
+          borderSize="border-2"
+          lineColor="text-border"
+          title="About Us"
+        />
       </div>
       <section className="container md:px-0 px-5 sm:px-5 max-w-7xl mx-auto">
         <p className="mb-8  mx-auto text-base text-secondary">
@@ -50,9 +58,13 @@ export default function About() {
 
       {/* How do we work? */}
       <section className="container px-5 md:px-0 mx-auto mt-20">
-        <h2 className="text-2xl font-semibold border-b border-neutral-300 inline-block mb-12">
-          How do we work?
-        </h2>
+        <div className="flex items-center justify-center mb-8">
+          <SectionTitle
+            borderSize="border-1"
+            lineColor="border-primary"
+            title="How do we work?"
+          />
+        </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-x-12 gap-y-16 text-left text-neutral-700">
           {/* Step 1 */}
