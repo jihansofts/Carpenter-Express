@@ -136,8 +136,8 @@ export const CategoryData: PageCategoryType[] = [
     subpages: [
       {
         image: "/images/bgnail.jpg",
-        title: "Nail Plate Trusses",
-        slug: "nail-plate-trusses",
+        title: "Social",
+        slug: "social",
         description:
           "We can say that besides our vast professional experience, our attachment and commitment to wood are natural, after half a century.",
         gallerySections: [
@@ -156,6 +156,61 @@ export const CategoryData: PageCategoryType[] = [
               "/images/lukacs-roof-10.jpg",
               "/images/lukacs-roof-11.jpg",
               "/images/lukacs-roof-12.jpg",
+            ],
+          },
+        ],
+      },
+      {
+        image: "/images/bgnail.jpg",
+        title: "Kitchen",
+        slug: "kitchen-construction",
+        description:
+          "We can say that besides our vast professional experience, our attachment and commitment to wood are natural, after half a century.",
+        gallerySections: [
+          {
+            galleryTitle: "kitchen Trusses",
+            images: [
+              "/images/lukacs-roof-01.jpg",
+              "/images/lukacs-roof-02.jpg",
+              "/images/lukacs-roof-03.jpg",
+              "/images/lukacs-roof-04.jpg",
+              "/images/lukacs-roof-05.jpg",
+              "/images/lukacs-roof-06.jpg",
+              "/images/lukacs-roof-07.jpg",
+              "/images/lukacs-roof-08.jpg",
+              "/images/lukacs-roof-09.jpg",
+              "/images/lukacs-roof-10.jpg",
+              "/images/lukacs-roof-11.jpg",
+              "/images/lukacs-roof-12.jpg",
+            ],
+          },
+        ],
+      },
+      {
+        image: "/images/urban-furniture.jpg",
+        title: "Urban",
+        slug: "urban-construction",
+        description:
+          "We can say that besides our vast professional experience, our attachment and commitment to wood are natural, after half a century.",
+        gallerySections: [
+          {
+            galleryTitle: "Urban Projects",
+            images: [
+              "/images/lukacs-siculeni-park-01.jpg",
+              "/images/lukacs-siculeni-park-02.jpg",
+              "/images/lukacs-siculeni-park-03.jpg",
+              "/images/lukacs-siculeni-park-04.jpg",
+              "/images/lukacs-siculeni-park-05.jpg",
+            ],
+          },
+          {
+            galleryTitle: "Urban Furniture",
+            images: [
+              "/images/lukacs-road-of-siculicidium-02.jpg",
+              "/images/lukacs-road-of-siculicidium-03.jpg",
+              "/images/lukacs-urban-furniture-03.jpg",
+              "/images/lukacs-urban-furniture-04.jpg",
+              "/images/lukacs-urban-furniture-05.jpg",
             ],
           },
         ],
