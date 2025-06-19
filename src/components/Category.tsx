@@ -25,7 +25,7 @@ export default function Category() {
 
             {/* Hover Menu */}
             <div className="absolute inset-0 bg-primary/70 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white z-20 p-4 flex flex-col justify-center items-center text-center">
-              <ul className="space-y-1 text-[18px] font-semibold">
+              <ul className="space-y-1 uppercase text-[18px] font-semibold">
                 {item.subpages.map((sub) => (
                   <li key={sub.slug}>
                     <Link href={`/${item.slug}/${sub.slug}`}>{sub.title}</Link>

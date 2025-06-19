@@ -220,6 +220,134 @@ export const CategoryData: PageCategoryType[] = [
           },
         ],
       },
+      {
+        image: "/images/other-furniture.jpg",
+        title: "Other",
+        slug: "other-construction",
+        description:
+          "We can say that besides our vast professional experience, our attachment and commitment to wood are natural, after half a century.",
+        gallerySections: [
+          {
+            galleryTitle: "bedroom Projects",
+            images: [
+              "/images/lukacs-bedroom-01.jpg",
+              "/images/lukacs-bedroom-02.jpg",
+              "/images/lukacs-bedroom-03.jpg",
+              "/images/lukacs-bedroom-04.jpg",
+            ],
+          },
+          {
+            galleryTitle: "Living Furniture",
+            images: [
+              "/images/lukacs-living-01.jpg",
+              "/images/lukacs-living-02.jpg",
+              "/images/lukacs-living-03.jpg",
+              "/images/lukacs-living-04.jpg",
+              "/images/lukacs-office-01.jpg",
+              "/images/lukacs-office-02.jpg",
+              "/images/lukacs-office-03.jpg",
+            ],
+          },
+          {
+            galleryTitle: "Table Furniture",
+            images: [
+              "/images/lukacs-wood-table-01.jpg",
+              "/images/lukacs-wood-table-02.jpg",
+              "/images/lukacs-wood-table-03.jpg",
+              "/images/lukacs-wood-table-04.jpg",
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 3,
+    name: "STAIR",
+    img: "/images/category3.jpg",
+    slug: "stair",
+    subpages: [
+      {
+        image: "/images/wooden-stairs.jpg",
+        title: "Stairs",
+        slug: "wooden-stairs",
+        description:
+          "We can say that besides our vast professional experience, our attachment and commitment to wood are natural, after half a century.",
+        gallerySections: [
+          {
+            galleryTitle: "Stairs No 1",
+            images: [
+              "/images/lukacs-stair-no9-01.jpg",
+              "/images/lukacs-stair-no9-02.jpg",
+              "/images/lukacs-stair-no9-03.jpg",
+              "/images/lukacs-stair-no9-04.jpg",
+            ],
+          },
+          {
+            galleryTitle: "Stairs No 2",
+            images: [
+              "/images/lukacs-stari-no1-01.jpg",
+              "/images/lukacs-stari-no1-02.jpg",
+              "/images/lukacs-stari-no1-03.jpg",
+              "/images/lukacs-stari-no1-04.jpg",
+            ],
+          },
+          {
+            galleryTitle: "Stairs No 3",
+            images: [
+              "/images/lukacs-stari-no2-01.jpg",
+              "/images/lukacs-stari-no2-02.jpg",
+              "/images/lukacs-stari-no2-03.jpg",
+              "/images/lukacs-stari-no2-04.jpg",
+            ],
+          },
+          {
+            galleryTitle: "Stairs No 4",
+            images: [
+              "/images/lukacs-stari-no4-01.jpg",
+              "/images/lukacs-stari-no4-02.jpg",
+              "/images/lukacs-stari-no4-03.jpg",
+              "/images/lukacs-stari-no4-04.jpg",
+            ],
+          },
+          {
+            galleryTitle: "Stairs No 5",
+            images: [
+              "/images/lukacs-stari-no5-01.jpg",
+              "/images/lukacs-stari-no5-02.jpg",
+              "/images/lukacs-stari-no5-03.jpg",
+              "/images/lukacs-stari-no5-04.jpg",
+            ],
+          },
+          {
+            galleryTitle: "Stairs No 6",
+            images: [
+              "/images/lukacs-stari-no6-01.jpg",
+              "/images/lukacs-stari-no6-02.jpg",
+              "/images/lukacs-stari-no6-03.jpg",
+              "/images/lukacs-stari-no6-04.jpg",
+            ],
+          },
+          {
+            galleryTitle: "Stairs No 7",
+            images: [
+              "/images/lukacs-stari-no7-01.jpg",
+              "/images/lukacs-stari-no7-02.jpg",
+              "/images/lukacs-stari-no7-03.jpg",
+              "/images/lukacs-stari-no7-04.jpg",
+            ],
+          },
+          {
+            galleryTitle: "Stairs No 8",
+            images: [
+              "/images/lukacs-stari-no8-01.jpg",
+              "/images/lukacs-stari-no8-02.jpg",
+              "/images/lukacs-stari-no8-03.jpg",
+              "/images/lukacs-stari-no8-04.jpg",
+            ],
+          },
+        ],
+      },
     ],
   },
 ];
