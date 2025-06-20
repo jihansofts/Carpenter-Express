@@ -5,7 +5,20 @@ import Link from "next/link";
 import { CategoryData } from "@/lib/data";
 import SubCategoryGallery from "@/common/SubGalleryImage";
 import SectionTitle from "@/common/SectionTitle";
+import ServiceInfo from "@/common/ServiceInfo";
+import WorkingRangeTable from "@/common/WorkingRangeTable";
 
+const leftTable = [
+  { load: "1300 kg", projection: "5,00 m", height: "16 m" },
+  { load: "1000 kg", projection: "7,20 m", height: "17 m" },
+  { load: "810 kg", projection: "8,00 m", height: "22 m" },
+];
+
+const rightTable = [
+  { load: "600 kg", projection: "9,70 m", height: "21 m" },
+  { load: "300 kg", projection: "17,40 m", height: "19 m" },
+  { load: "250 kg", projection: "19,00 m", height: "18 m" },
+];
 export default function SubCategoryPage(props: {
   params: Promise<{ categorySlug: string; subSlug: string }>;
 }) {
@@ -30,7 +43,7 @@ export default function SubCategoryPage(props: {
       </div>
       {/* <h1 className="text-3xl font-bold text-center mb-4">{category.name}</h1> */}
 
-      <div className="container mx-auto flex justify-center gap-4 mb-6 border-b">
+      <div className="container mx-auto flex lg:flex-row md:flex-col text-center sm:flex-col flex-col justify-center gap-4 mb-6 border-b">
         {category.subpages.map((sub) => (
           <Link
             key={sub.slug}
@@ -49,8 +62,12 @@ export default function SubCategoryPage(props: {
         <p className="text-[16px] text-center text-secondary mb-6">
           {subpage.description}
         </p>
-
+        {categorySlug === "services" &&
+          subSlug === "thermofloc-cellulose-insulation" && <ServiceInfo />}
         <SubCategoryGallery subpage={subpage} />
+        {categorySlug === "services" && subSlug === "crane-service" && (
+          <WorkingRangeTable leftTable={leftTable} rightTable={rightTable} />
+        )}
       </div>
     </section>
   );

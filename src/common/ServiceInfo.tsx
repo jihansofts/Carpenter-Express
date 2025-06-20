@@ -1,6 +1,5 @@
 import React from "react";
-
-
+import Image from "next/image";
 interface ContactNumber {
   id: number;
   number: string;
@@ -40,7 +39,7 @@ export default function ServiceInfo() {
           {contactNumbers.map((contact: ContactNumber) => (
             <div key={contact.id} className="flex items-center">
               <svg
-                className="w-5 h-5 text-green-600 mr-2"
+                className="w-5 h-5 text-primary mr-2"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -59,7 +58,7 @@ export default function ServiceInfo() {
           ))}
           <div className="flex items-center">
             <svg
-              className="w-5 h-5 text-green-600 mr-2"
+              className="w-5 h-5 text-primary mr-2"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -80,7 +79,7 @@ export default function ServiceInfo() {
 
       {/* Title Section */}
       <h1 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-8">
-        THERMOTLOC® <span className="text-green-600">insulation systems</span> -
+        THERMOTLOC® <span className="text-primary">insulation systems</span> -
         all benefits at a glance
       </h1>
 
@@ -89,10 +88,10 @@ export default function ServiceInfo() {
         {benefits.map((benefit, index) => (
           <div
             key={index}
-            className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border-l-4 border-green-500">
+            className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border-l-4 border-border">
             <div className="flex items-start">
               <svg
-                className="w-5 h-5 text-green-600 mt-1 mr-2 flex-shrink-0"
+                className="w-5 h-5 text-primary mt-1 mr-2 flex-shrink-0"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -115,7 +114,13 @@ export default function ServiceInfo() {
         <div className="bg-white p-6 rounded-full shadow-lg">
           {/* Replace with your actual logo */}
           <div className="w-32 h-32 bg-gray-200 rounded-full flex items-center justify-center">
-            <span className="text-xl font-bold text-gray-600">THERMOTLOC®</span>
+            <Image
+              src="/logo.png"
+              alt="Logo"
+              width={64}
+              height={64}
+              className="w-16 h-16 object-contain"
+            />
           </div>
         </div>
       </div>
