@@ -168,7 +168,7 @@ export const CategoryData: PageCategoryType[] = [
           "We can say that besides our vast professional experience, our attachment and commitment to wood are natural, after half a century.",
         gallerySections: [
           {
-            galleryTitle: "kitchen Trusses",
+            galleryTitle: "kitchen No 1",
             images: [
               "/images/lukacs-kitchen-no5-01.jpg",
               "/images/lukacs-kitchen-no5-02.jpg",
@@ -177,12 +177,17 @@ export const CategoryData: PageCategoryType[] = [
             ],
           },
           {
-            galleryTitle: "Kitchen Furniture",
+            galleryTitle: "Kitchen No 2",
             images: [
               "/images/lukacs-kitchen-no5-05.jpg",
               "/images/lukacs-kitchen-no5-06.jpg",
               "/images/lukacs-kitchen-no5-07.jpg",
               "/images/lukacs-kitchen-no5-08.jpg",
+            ],
+          },
+          {
+            galleryTitle: "Kitchen No 3",
+            images: [
               "/images/lukacs-kitchen-no5-09.jpg",
               "/images/lukacs-kitchen-no5-10.jpg",
               "/images/lukacs-kitchen-no5-11.jpg",
@@ -344,6 +349,139 @@ export const CategoryData: PageCategoryType[] = [
               "/images/lukacs-stari-no8-02.jpg",
               "/images/lukacs-stari-no8-03.jpg",
               "/images/lukacs-stari-no8-04.jpg",
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 4,
+    name: "WOODEN ARCHITECTURE",
+    img: "/images/category4.jpg",
+    slug: "wooden-architecture",
+    subpages: [
+      {
+        image: "/images/prefab-construction.jpg",
+        title: "Prefab Construction",
+        slug: "prefab-construction",
+        description:
+          "We can say that besides our vast professional experience, our attachment and commitment to wood are natural, after half a century.",
+        gallerySections: [
+          {
+            galleryTitle: "Panoramic Cabins",
+            images: [
+              "/images/lukacs-panoramic-cabins-01.jpg",
+              "/images/lukacs-panoramic-cabins-02.jpg",
+              "/images/lukacs-panoramic-cabins-03.jpg",
+              "/images/lukacs-panoramic-cabins-04.jpg",
+              "/images/lukacs-panoramic-cabins-09.jpg",
+              "/images/lukacs-panoramic-cabins-10.jpg",
+              "/images/lukacs-panoramic-cabins-11.jpg",
+              "/images/lukacs-panoramic-cabins-12.jpg",
+              "/images/lukacs-panoramic-cabins-13.jpg",
+              "/images/lukacs-panoramic-cabins-14.jpg",
+              "/images/lukacs-panoramic-cabins-15.jpg",
+              "/images/lukacs-panoramic-cabins-16.jpg",
+              "/images/lukacs-panoramic-cabins-17.jpg",
+              "/images/lukacs-panoramic-cabins-18.jpg",
+              "/images/lukacs-panoramic-cabins-19.jpg",
+              "/images/lukacs-panoramic-cabins-20.jpg",
+              "/images/lukacs-panoramic-cabins-21.jpg",
+              "/images/lukacs-panoramic-cabins-22.jpg",
+              "/images/lukacs-panoramic-cabins-23.jpg",
+              "/images/lukacs-panoramic-cabins-24.jpg",
+              "/images/lukacs-panoramic-cabins-25.jpg",
+              "/images/lukacs-panoramic-cabins-26.jpg",
+              "/images/lukacs-panoramic-cabins-27.jpg",
+              "/images/lukacs-panoramic-cabins-28.jpg",
+              "/images/lukacs-panoramic-cabins-29.jpg",
+              "/images/lukacs-panoramic-cabins-30.jpg",
+              "/images/lukacs-panoramic-cabins-31.jpg",
+              "/images/lukacs-panoramic-cabins-32.jpg",
+              "/images/lukacs-panoramic-cabins-34.jpg",
+              "/images/lukacs-panoramic-cabins-35.jpg",
+              "/images/lukacs-panoramic-cabins-36.jpg",
+              "/images/lukacs-panoramic-cabins-37.jpg",
+            ],
+          },
+        ],
+      },
+      {
+        image: "/images/timber-construction.jpg",
+        title: "Timber Construction",
+        slug: "timber-construction",
+        description:
+          "We can say that besides our vast professional experience, our attachment and commitment to wood are natural, after half a century.",
+        gallerySections: [
+          {
+            galleryTitle: "Roof Construction",
+            images: [
+              "/images/lukacs-timber-construction-01.jpg",
+              "/images/roof-construction-and-roofing-02.jpg",
+              "/images/roof-construction-and-roofing-03.jpg",
+              "/images/roof-construction-and-roofing-04.jpg",
+              "/images/roof-construction-and-roofing-05.jpg",
+              "/images/roof-construction-and-roofing-06.jpg",
+              "/images/roof-construction-and-roofing-07.jpg",
+              "/images/roof-construction-and-roofing-08.jpg",
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 5,
+    name: "SERVICES",
+    img: "/images/category5.jpg",
+    slug: "services",
+    subpages: [
+      {
+        image: "/images/cellulose-insulation.jpg",
+        title: "Thermofloc cellulose insulation",
+        slug: "thermofloc-cellulose-insulation",
+        description:
+          "We can say that besides our vast professional experience, our attachment and commitment to wood are natural, after half a century.",
+        gallerySections: [
+          {
+            galleryTitle: "Photo",
+            images: [
+              "/images/lukacs-cellulose-insulation-01.jpg",
+              "/images/lukacs-cellulose-insulation-02.jpg",
+              "/images/lukacs-cellulose-insulation-03.jpg",
+              "/images/lukacs-cellulose-insulation-04.jpg",
+              "/images/lukacs-cellulose-insulation-05.jpg",
+              "/images/lukacs-cellulose-insulation-06.jpg",
+              "/images/lukacs-cellulose-insulation-07.jpg",
+              "/images/lukacs-cellulose-insulation-08.jpg",
+            ],
+          },
+        ],
+      },
+      {
+        image: "/images/other-carpentry.jpg",
+        title: "Other Carpentry",
+        slug: "other-carpentry",
+        description:
+          "We can say that besides our vast professional experience, our attachment and commitment to wood are natural, after half a century.",
+        gallerySections: [
+          {
+            galleryTitle: "Carpentry No 1",
+            images: [
+              "/images/lukacs-other-carpentry-01.jpg",
+              "/images/lukacs-other-carpentry-02.jpg",
+              "/images/lukacs-other-carpentry-03.jpg",
+              "/images/lukacs-other-carpentry-04.jpg",
+            ],
+          },
+          {
+            galleryTitle: "Carpentry No 2",
+            images: [
+              "/images/lukacs-other-carpentry-05.jpg",
+              "/images/lukacs-other-carpentry-06.jpg",
+              "/images/lukacs-other-carpentry-07.jpg",
+              "/images/lukacs-other-carpentry-08.jpg",
             ],
           },
         ],

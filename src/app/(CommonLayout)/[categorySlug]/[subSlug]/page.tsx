@@ -18,7 +18,7 @@ export default function SubCategoryPage(props: {
   if (!subpage) return notFound();
 
   return (
-    <section className="container mx-auto px-4 py-10">
+    <section className=" mx-auto py-10">
       <div className="container mx-auto">
         <Image
           src={`${subpage.image}`}
@@ -30,7 +30,7 @@ export default function SubCategoryPage(props: {
       </div>
       {/* <h1 className="text-3xl font-bold text-center mb-4">{category.name}</h1> */}
 
-      <div className="flex justify-center gap-4 mb-6 border-b">
+      <div className="container mx-auto flex justify-center gap-4 mb-6 border-b">
         {category.subpages.map((sub) => (
           <Link
             key={sub.slug}
@@ -44,12 +44,14 @@ export default function SubCategoryPage(props: {
           </Link>
         ))}
       </div>
-      <SectionTitle borderSize="border-1" title={subpage.title} />
-      <p className="text-[16px] text-center text-secondary mb-6">
-        {subpage.description}
-      </p>
+      <SectionTitle borderSize="border-2 text-border" title={subpage.title} />
+      <div className="container mx-auto px-4 md:px-0">
+        <p className="text-[16px] text-center text-secondary mb-6">
+          {subpage.description}
+        </p>
 
-      <SubCategoryGallery subpage={subpage} />
+        <SubCategoryGallery subpage={subpage} />
+      </div>
     </section>
   );
 }

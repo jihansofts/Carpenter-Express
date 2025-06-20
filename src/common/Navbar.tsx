@@ -16,19 +16,19 @@ export default function Navbar() {
         <div className="flex gap-4 text-primary">
           <Link href="/">
             <House
-              size={18}
+              size={25}
               className="text-primary hover:bg-secondary hover:text-white"
             />
           </Link>
           <Link href="/">
             <Facebook
-              size={18}
+              size={25}
               className="text-primary hover:bg-secondary hover:text-white"
             />
           </Link>
           <Link href="/">
             <Youtube
-              size={18}
+              size={25}
               className="text-primary hover:bg-secondary hover:text-white"
             />
           </Link>
@@ -43,9 +43,9 @@ export default function Navbar() {
 
         {/* Language Switcher - hidden on small screens */}
         <div className="hidden md:flex gap-2 text-sm text-primary font-medium">
-          <span>EN</span>
-          <span>RO</span>
-          <span>HU</span>
+          {/* <span>EN</span> */}
+          {/* <span>RO</span>
+          <span>HU</span> */}
         </div>
       </div>
 
@@ -55,7 +55,7 @@ export default function Navbar() {
         <div className="flex items-center gap-4 w-1/3">
           <div className="h-px bg-primary flex-1"></div>
           <Link href="/about">
-            <span className="text-primary font-medium whitespace-nowrap hover:font-semibold">
+            <span className="text-primary text-[25px] font-medium whitespace-nowrap hover:font-semibold">
               ABOUT US
             </span>
           </Link>
@@ -71,7 +71,7 @@ export default function Navbar() {
         {/* Right Line + Contact */}
         <div className="flex items-center gap-4 w-1/3 justify-end">
           <Link href="/contact">
-            <span className="text-primary font-medium whitespace-nowrap hover:font-semibold">
+            <span className="text-primary text-[25px] font-medium whitespace-nowrap hover:font-semibold">
               CONTACT
             </span>
           </Link>
@@ -83,7 +83,9 @@ export default function Navbar() {
       {isOpen && (
         <div className="md:hidden mt-4 px-4 space-y-4 text-center text-primary font-medium">
           <div className="border-t border-primary pt-4">
-            <p>ABOUT US</p>
+            <Link href="/about">
+              <p>ABOUT US</p>
+            </Link>
           </div>
           <div>
             <Image
@@ -95,12 +97,14 @@ export default function Navbar() {
             />
           </div>
           <div className="border-b border-primary pb-4">
-            <p>CONTACT</p>
+            <Link href="/contact">
+              <p>CONTACT</p>
+            </Link>
           </div>
           <div className="flex justify-center gap-4 text-sm">
             <span>EN</span>
-            <span>RO</span>
-            <span>HU</span>
+            {/* <span>RO</span>
+            <span>HU</span> */}
           </div>
         </div>
       )}
