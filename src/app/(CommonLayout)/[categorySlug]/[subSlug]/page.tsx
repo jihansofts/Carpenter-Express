@@ -62,12 +62,50 @@ export default function SubCategoryPage(props: {
         <p className="text-[16px] text-center text-secondary mb-6">
           {subpage.description}
         </p>
-        {categorySlug === "services" &&
+        {categorySlug === "specialized-services" &&
+          subSlug === "3d-measuring" && (
+            <ul className="list-disc text-start space-y-2 px-4 mx-auto list-inside text-secondary mb-6">
+              <span className="">
+                Our Leica 3D Disto measuring station offers:
+              </span>
+              <li>
+                ±1 <strong>mm measurement accuracy</strong>
+              </li>
+              <li>
+                Range: <strong>0.05 – 50 meters</strong>
+              </li>
+              <li>
+                Built-in <strong>digital camera</strong>
+              </li>
+              <li>
+                Output in <strong>2D and 3D DXF/DWG formats</strong>
+              </li>
+              <p>
+                With cutting-edge technology and expert handling, we turn every
+                measurement into a solid foundation for your project’s success.
+              </p>
+            </ul>
+          )}
+        {categorySlug === "specialized-services" &&
+          subSlug === "seam-forming" && (
+            <ul className="list-disc text-start space-y-2 px-4 mx-auto list-inside text-secondary mb-6">
+              <span className=" font-bold">Available dimensions:</span>
+              <li>0.7 × 500 mm</li>
+              <li>0.7 × 650 mm</li>
+              <li>0.7 × 1000 mm</li>
+              <p>
+                Precision forming for durable and aesthetically tailored sheet
+                metal solutions.
+              </p>
+            </ul>
+          )}
+        {categorySlug === "specialized-services" &&
           subSlug === "thermofloc-cellulose-insulation" && <ServiceInfo />}
         <SubCategoryGallery subpage={subpage} />
-        {categorySlug === "services" && subSlug === "crane-service" && (
-          <WorkingRangeTable leftTable={leftTable} rightTable={rightTable} />
-        )}
+        {categorySlug === "specialized-services" &&
+          subSlug === "crane-operations" && (
+            <WorkingRangeTable leftTable={leftTable} rightTable={rightTable} />
+          )}
       </div>
     </section>
   );

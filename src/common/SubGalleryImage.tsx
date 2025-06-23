@@ -7,7 +7,7 @@ interface GallerySection {
 
 interface Subpage {
   title: string;
-  description: string;
+  description: string[];
   gallerySections: GallerySection[];
 }
 
@@ -21,7 +21,7 @@ export default function SubCategoryGallery({ subpage }: { subpage: Subpage }) {
           <h2 className="text-xl font-semibold mb-4 text-center">
             {section.galleryTitle || ""}
           </h2>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-4 md:grid-cols-4 gap-4">
             {section.images.map((img, i) => (
               <Image
                 key={i}

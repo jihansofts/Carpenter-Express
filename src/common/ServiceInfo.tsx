@@ -11,17 +11,17 @@ export default function ServiceInfo() {
   ];
 
   const benefits: string[] = [
-    "Made from cellulose",
-    "100% organic",
-    "Advantages with regard to building biology and ecological considerations",
-    "Natureplus mark of quality",
-    "Outstanding insulation values",
-    "Cocyt indoor climate",
-    "Different insulation thicknesses",
+    "Made from cellulose – 100% organic",
+    "Certified by Natureplus® for ecological and health safety",
+    "Excellent thermal performance",
+    "Naturally regulates indoor temperature and humidity",
+    "Strong fire protection properties",
+    "Available in multiple thicknesses",
+    "Minimal waste, clean installation",
     "Cost-effective and fast installation",
-    "High performance envelope of insulation ensured by a thermal conductivity",
-    "Thermal insulation with excellent fire protection properties",
-    "Perfect moisture control",
+    "Fast and efficient with THERMOBLOW system",
+    "Suitable for roofs, floors, and walls",
+    "Ensures complete cavity filling and seamless insulation layers",
     "Thermal insulation without waste",
     "Fast installation and simple building logistics with THERMOBLOW",
     "Insulation for roofs, floors and walls",
@@ -78,13 +78,17 @@ export default function ServiceInfo() {
       </div>
 
       {/* Title Section */}
-      <h1 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-8">
-        THERMOTLOC® <span className="text-primary">insulation systems</span> -
-        all benefits at a glance
+      <h1 className="text-3xl md:text-4xl capitalize font-bold text-center text-gray-800 mb-8">
+        Certified for{" "}
+        <span className="text-primary">sustainable and healthy</span>{" "}
+        construction
       </h1>
 
       {/* Benefits Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+        <h4 className="col-span-1 md:col-span-2 lg:col-span-3 text-lg font-semibold text-gray-800 mb-4">
+          Why Choose THERMOFLOC®?
+        </h4>
         {benefits.map((benefit, index) => (
           <div
             key={index}
@@ -107,6 +111,10 @@ export default function ServiceInfo() {
             </div>
           </div>
         ))}
+        <p className="col-span-1 md:col-span-2 lg:col-span-3 text-sm text-gray-600 mt-4">
+          Create a cozy, healthy, and efficient home with THERMOFLOC® insulation
+          trusted across Europe for modern, sustainable building.
+        </p>
       </div>
 
       {/* Logo Section */}

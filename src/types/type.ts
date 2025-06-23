@@ -19,7 +19,7 @@ type SubPage = {
   image: string;
   title: string;
   slug: string;
-  description: string;
+  description: string[];
   gallerySections: {
     galleryTitle: string;
     images: string[];

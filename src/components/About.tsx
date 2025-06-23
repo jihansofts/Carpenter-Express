@@ -23,15 +23,20 @@ export default function About() {
         />
       </div>
       <section className="container md:px-0 px-5 sm:px-5 max-w-7xl mx-auto">
-        <p className="mb-8  mx-auto text-base text-secondary">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-          distinctio ratione magni, iste blanditiis dicta modi debitis nostrum.
-          Voluptatem soluta vitae doloribus quo sed explicabo ex, aliquam
-          placeat praesentium totam quam earum dolor sit recusandae animi
-          assumenda non eius provident. Provident, velit blanditiis? Illum
-          repellendus non quos illo, placeat accusamus?
+        <p className="mb-6  mx-auto text-base text-secondary">
+          Carpenter Express was founded on the values of tradition, precision,
+          and creativity. The business has evolved from a classic furniture
+          workshop into a modern woodworking powerhouse while preserving the
+          soul of traditional craftsmanship.
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        <p>
+          We specialize in bespoke, made-to-order projects using a combination
+          of premium raw materials and advanced technology. Our portfolio
+          includes indoor and outdoor woodwork, and we proudly serve both local
+          and international clients. At Carpenter Express, every project begins
+          with a flexible mindset and an entrepreneurial spirit.
+        </p>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-10">
           <Image
             src="/images/about1.jpg"
             alt="img1"
@@ -62,7 +67,7 @@ export default function About() {
           <SectionTitle
             borderSize="border-1"
             lineColor="border-primary"
-            title="How do we work?"
+            title="How We Work"
           />
         </div>
 
@@ -74,25 +79,24 @@ export default function About() {
                 1
               </div>
               <h3 className="font-bold text-lg text-primary text-center">
-                Design and assessment
+                Design & Consultation
               </h3>
             </div>
 
             <div className="mt-4 space-y-4">
               <p className="text-sm">
-                It is important to have answers to the following questions at
-                the very beginning of the assignment:
+                Every project starts with understanding your needs:
               </p>
               <ul className="list-[square] pl-5 text-sm space-y-2">
-                <li>What does the client want from us?</li>
-                <li>How much time do we have to do it?</li>
-                <li>How much does the client want to spend on this order?</li>
+                <li>What are your design goals?</li>
+                <li>What’s your timeline?</li>
+                <li>What’s your budget?</li>
               </ul>
               <p className="text-sm">
-                Once we have this information, we make an appointment for a site
-                visit. After the assessment, we make a layout and a digital
-                model. Based on that, we create draft designs and an informative
-                quotation.
+                With this information, we schedule a site visit if needed. Then,
+                we create a layout and 3D model of your space. Based on your
+                vision and location-specific data, we develop one or more design
+                concepts and provide an initial quote.
               </p>
             </div>
           </div>
@@ -104,15 +108,15 @@ export default function About() {
                 2
               </div>
               <h3 className="font-bold text-lg text-primary text-center">
-                Finalization of the design and deposit
+                Design Finalization & Deposit
               </h3>
             </div>
 
             <div className="mt-4 space-y-4">
               <p className="text-sm">
-                After the second consultations, we select the best draft design
-                and check on the materials, the types of wood, textures, colors,
-                harmony, fenestrations, sealers, tiles, ridging, etc.
+                After a second consultation, we refined the preferred design
+                choosing materials, wood types, textures, finishes, color
+                palettes, window placements, tiles, and more.
               </p>
 
               <Image
@@ -123,9 +127,9 @@ export default function About() {
                 className="w-full h-auto object-cover grayscale"
               />
               <p className="text-sm">
-                And after the conciliations, we establish the final price. If we
-                reach an agreement, an advance payment is paid and we finalize
-                the design to start production.
+                Once everything is aligned and the quote is approved, a deposit
+                is made. From there, we finalize the blueprint and begin
+                production.
               </p>
             </div>
           </div>
@@ -137,15 +141,15 @@ export default function About() {
                 3
               </div>
               <h3 className="font-bold text-lg text-primary text-center">
-                Production and delivery
+                Production & Delivery
               </h3>
             </div>
 
             <div className="mt-4 space-y-4">
               <p className="text-sm">
-                If the client requests, we inform them about the manufacturing
-                process. We deliver and install the finished product at the
-                agreed location and date.
+                If requested, we keep clients updated throughout the production
+                process. When completed, we deliver and install your piece at an
+                agreed-upon time and location.
               </p>
 
               <Image
@@ -156,9 +160,8 @@ export default function About() {
                 className="w-full h-auto object-cover grayscale"
               />
               <p className="text-sm">
-                After installation and delivery, we inform the client about
-                product warranties and usage. The remaining balance is then
-                paid.
+                After installation, we guide you through care tips, product
+                warranties, and finalize the remaining payment.
               </p>
             </div>
           </div>
