@@ -135,7 +135,7 @@ export const CategoryData: PageCategoryType[] = [
         ],
       },
       {
-        image: "/images/bgnail.jpg",
+        image: "/images/nail-plate-trusses.jpg",
         title: "Nail Plate Trusses",
         slug: "nail-plate-trusses",
         description: [
@@ -170,7 +170,7 @@ export const CategoryData: PageCategoryType[] = [
     slug: "furniture",
     subpages: [
       {
-        image: "/images/bgnail.jpg",
+        image: "/images/bgsocial.jpg",
         title: "Social Spaces",
         slug: "social-spaces",
         description: [

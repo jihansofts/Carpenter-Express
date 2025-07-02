@@ -1,6 +1,6 @@
 "use client";
 
-import { Facebook, House, Menu, X, Youtube } from "lucide-react";
+import {  House, Menu, X,} from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 import React, { useState } from "react";
@@ -20,7 +20,7 @@ export default function Navbar() {
               className="text-primary hover:bg-secondary hover:text-white"
             />
           </Link>
-          <Link href="/">
+          {/* <Link href="/">
             <Facebook
               size={25}
               className="text-primary hover:bg-secondary hover:text-white"
@@ -31,7 +31,7 @@ export default function Navbar() {
               size={25}
               className="text-primary hover:bg-secondary hover:text-white"
             />
-          </Link>
+          </Link> */}
         </div>
 
         {/* Mobile Menu Toggle */}
