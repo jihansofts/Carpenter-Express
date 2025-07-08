@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+
 import SectionTitle from "@/common/SectionTitle";
 
 export default function About() {
